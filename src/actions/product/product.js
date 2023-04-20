@@ -1,5 +1,5 @@
-
-let products = [] //Sustituir [] por la carga del archivo ubicado en data/products.js (importar el archivo y asignar)
+const datos = require("../../data/products.json")
+let products = datos //Sustituir [] por la carga del archivo ubicado en data/products.js (importar el archivo y asignar)
 
 
 exports.getProducts = () => {
